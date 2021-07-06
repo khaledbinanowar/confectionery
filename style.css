@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .sec-pad{
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .wrapper{
     max-width: 80%;
@@ -18,6 +18,29 @@ body {
 .half-width{
     width: 48.5%;
 }
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(to left, #c02ec0, #7e32c5);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.btn-l{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-s{
+    padding: 8px 20px;
+    margin: 20px 30px;
+    font-size: 14px;
+}
+
+/* cover area css starts here */
 .cover-area{
     background: url(images/bg-1.jpg);
     background-repeat: no-repeat;
@@ -46,32 +69,13 @@ body {
     width: 50%;
     margin: 25px auto;
 }
-.btn{
-    text-decoration: none;
-    background-image: linear-gradient(to left, #c02ec0, #7e32c5);
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    transition: .5s;
-    cursor: pointer;
-    text-transform: capitalize;
-}
-.btn-l{
-    padding: 10px 30px;
-    margin: 10px;
-    border-radius: 30px;
-    font-size: 20px;
-    font-weight: 700;
-}
-.btn-s{
-    padding: 8px 20px;
-    margin: 20px 30px;
-    font-size: 14px;
-}
+
+/* new-arrivals area css starts here */
 .new-arrivals-area {
     background-color: #d6ccda;
 }
 .new-arrivals h2{
-    color: #c02ec0;
+    color: #9437e0;
     font-size: 45px;
     font-family: 'Playball', cursive;
     text-align: center;
@@ -83,25 +87,21 @@ body {
     flex-basis: 22.5%;
     width: 22.5%;
 }
-
 .new-arrivals-thumb img {
     width: 100%;
     display: block;
     border-radius: 8px 8px 0 0;
 }
-
 .new-arrivals-content {
     text-align: center;
     padding-bottom: 20px;
 }
-
 .new-arrivals-content h3 {
     font-family: 'Playball', cursive;
     font-size: 18px;
     margin: 0;
     text-transform: capitalize;
 }
-
 .new-arrivals-content p {
     font-family: 'Playball', cursive;
     font-size: 16px;
@@ -115,6 +115,8 @@ body {
     height: 15px;
     display: inline-block;
 }
+
+/* order area css starts here */
 .order-content h2{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
@@ -122,7 +124,7 @@ body {
     text-transform: capitalize;
 }
 .order-content span{
-    color: #c02ec0;;
+    color: #9437e0;;
 }
 .order-content p{
     font-size: 20px;
@@ -142,6 +144,8 @@ body {
 .order-thumb img{
     height: 100%;
 }
+
+/* about area css starts here */
 .about-area{
     background: url(images/frame-56.jpg );
     background-size: cover;
@@ -166,6 +170,8 @@ body {
     width: 70%;
     margin-bottom: 40px;
 }
+
+/* recipies area css starts here */
 .recipies-top{
     text-align: center;
 }
@@ -177,7 +183,7 @@ body {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #5a5a5a;
+    color: #18191f;
     text-transform: capitalize;
 }
  .recipies-top p, .recipies-part p{
@@ -196,4 +202,43 @@ body {
 .recipies-item img{
     width: 100%;
     border-radius: 15px;
+}
+
+/* counter area css starts here */
+.counter-item{
+    width: 32.5%;
+    text-align: center;
+}
+.counter-item h2{
+    color: #18191f;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.counter-item p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #5a5a5a;
+}
+
+/* footer css starts here */
+footer {
+    background-color: #0b0d17;
+    text-align: center;
+}
+footer h2{
+    color: #5b5b5b;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+footer span{
+    color: #9437e0;
+}
+footer p{
+    color: #8a8b90;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
 }
