@@ -1,6 +1,20 @@
 body {
     margin: 0;
 }
+.sec-pad{
+    padding: 80px 0;
+}
+.wrapper{
+    max-width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
 .cover-area{
     background: url(images/bg-1.jpg);
     background-repeat: no-repeat;
@@ -29,16 +43,71 @@ body {
     width: 50%;
     margin: 25px auto;
 }
-.cover-content a{
+.btn{
     text-decoration: none;
     background-image: linear-gradient(to left, #c02ec0, #7e32c5);
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.btn-l{
     padding: 10px 30px;
     margin: 10px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-    transition: .5s;
-    cursor: pointer;
+}
+.btn-s{
+    padding: 8px 20px;
+    margin: 20px 30px;
+    font-size: 14px;
+}
+.new-arrivals-area {
+    background-color: #d6ccda;
+}
+.new-arrivals h2{
+    color: #c02ec0;
+    font-size: 45px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+}
+.new-arrivals-item {
+    background: #ffffff;
+    margin: 10px;
+    border-radius: 8px;
+    flex-basis: 22.5%;
+    width: 22.5%;
+}
+
+.new-arrivals-thumb img {
+    width: 100%;
+    display: block;
+    border-radius: 8em 8px 0 0;
+}
+
+.new-arrivals-content {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.new-arrivals-content h3 {
+    font-family: 'Playball', cursive;
+    font-size: 18px;
+    margin: 0;
+}
+
+.new-arrivals-content p {
+    font-family: 'Playball', cursive;
+    font-size: 16px;
+}
+.new-arrivals-feedback{
+    display: flex;
+    justify-content: center;
+}
+.new-arrivals-feedback span {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
 }
