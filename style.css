@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+.cover-area{
+    background: url(images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.cover-content{
+    text-align: center;
+    padding-top: 5%;
+}
+.cover-content h1{
+    color: #ffffff;
+    font-size: 75px;
+    font-family: 'Playball', cursive;
+}
+.cover-content h2{
+    color: #c02ec0;
+    font-size: 45px;
+    font-family: 'Playball', cursive;
+}
+.cover-content p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    color: #ffffff;
+    width: 50%;
+    margin: 25px auto;
+}
+.cover-content a{
+    text-decoration: none;
+    background-image: linear-gradient(to left, #c02ec0, #7e32c5);
+    color: #ffffff;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+    cursor: pointer;
+}
