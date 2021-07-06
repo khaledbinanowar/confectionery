@@ -15,6 +15,9 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+.half-width{
+    width: 48.5%;
+}
 .cover-area{
     background: url(images/bg-1.jpg);
     background-repeat: no-repeat;
@@ -111,9 +114,6 @@ body {
     height: 15px;
     display: inline-block;
 }
-.order-content{
-    width: 48.5%;
-}
 .order-content h2{
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
@@ -136,9 +136,32 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 48.5%;
     text-align: center;
 }
 .order-thumb img{
     height: 100%;
+}
+.about-area{
+    background: url(images/frame-56.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.about-content{
+    margin: auto;
+}
+.about-content h2{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5a5aeb;
+    text-transform: capitalize;
+}
+.about-content p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #5a5a5a;
+    width: 70%;
+    margin-bottom: 40px;
 }
