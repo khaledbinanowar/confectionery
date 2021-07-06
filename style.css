@@ -55,7 +55,7 @@ body {
 .btn-l{
     padding: 10px 30px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -110,4 +110,35 @@ body {
     width: 15px;
     height: 15px;
     display: inline-block;
+}
+.order-content{
+    width: 48.5%;
+}
+.order-content h2{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5a5a;
+    text-transform: capitalize;
+}
+.order-content span{
+    color: #c02ec0;;
+}
+.order-content p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #5a5a5aeb;
+    width: 80%;
+    margin-bottom: 40px;
+}
+.order-thumb{
+    background: url(images/group.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 48.5%;
+    text-align: center;
+}
+.order-thumb img{
+    height: 100%;
 }
